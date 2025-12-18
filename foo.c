@@ -35,5 +35,12 @@ int main(void)
 
     printf("Die Gesamtkosten des Christbaumschmucks beträgt %f€\n");
     
+    if {(candles<10);
+    printf("Auf den Baum befinden sich weniger als 10 Kerzen.\n");}
+    else {printf("Auf dem Baum befinden sich mehr als 10 Kerzen.\n");}
+
+    if { (candles%2 == 0);
+    printf("Es befindet sich eine gerade Anzahö an Kerzen am Baum.\n");}
+    else { printf("es befindet sich eine ungerade Anzahl an Kerzen am bAum.\n");}
 
 }

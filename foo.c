@@ -21,6 +21,19 @@ int main(void)
 
     //Christbaumschmuck
     
+    int candles = 0;
+    printf("Gib die Anzahl der Kerzen ein: \n");
+    scanf("%d", &candles);
+    float price_candles = candles * 1.50;
+
+    int balls = 0;
+    printf("Gib die Anzahl der Kugeln ein: \n");
+    scanf("%d", &balls);
+    float price_balls = balls * 4.90;
+
+    float price = price_balls + price_balls;
+
+    printf("Die Gesamtkosten des Christbaumschmucks beträgt %f€\n");
     
 
 }
